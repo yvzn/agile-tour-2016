@@ -20,36 +20,37 @@
         <section data-background="resources/images/vue-MN-TB-aerienne.jpg">
             <h1>Agile Tour Nantes 2016</h1>
             <aside class="notes">
-                novembre 2016 aux mines<br />
-                (anecdote) préparation prés / angle<br />
-                plusieurs conf / contenu dense<br />
-                ma femme a un avis sur tout
+                novembre / mines<br/>
+                (anecdote) angle prés&deg; <br/>
+                contenu dense<br/>
+                les attendus : <br/>
+                rappel principes agiles<br/>
+                REX autres projets<br/>
             </aside>
         </section>
-        <section data-background="resources/images/lexperience.jpg">
-            <aside class="notes">
-                les attendus : <br />
-                piqûre rappel bons princpes<br />
-                REX autres projets<br />
-                thème de 2016 = REX
-            </aside>
-        </section>
-        <section data-background="resources/images/sondage.jpg">
-            <aside class="notes">
-                REX en perspective avec principes agiles<br />
-                sondage agilité<br />
-                connaît / pratique / pratique en prod
-            </aside>
-        </section>
-        <section data-background="resources/images/manifeste.png">
-            <h2>Le manifeste agile</h2>
-            <aside class="notes">
-                manifeste agile / agilemanifesto<br />
-                interactions vs processus+outils<br />
-                pgm operationnel vs doc exhaustive<br />
-                collaboration client vs contractuel<br />
-                adapt&deg; chgt vs suivi plan
-            </aside>
+        <section>
+            <section data-background="resources/images/lexperience.jpg">
+                <aside class="notes">
+                    thème de 2016 = REX<br/>
+                    REX vs principes agiles
+                </aside>
+            </section>
+            <section data-background="resources/images/sondage.jpg">
+                <aside class="notes">
+                    sondage agilité<br/>
+                    connaît / pratique / connaît manifeste
+                </aside>
+            </section>
+            <section data-background="resources/images/manifeste.png">
+                <h2>Le manifeste agile</h2>
+                <aside class="notes">
+                    manifeste agile / agilemanifesto<br/>
+                    interactions vs processus+outils<br/>
+                    pgm operationnel vs doc exhaustive<br/>
+                    collaboration client vs contractuel<br/>
+                    adapt&deg; chgt vs suivi plan
+                </aside>
+            </section>
         </section>
         <section>
             <h3>Merci</h3>
@@ -59,33 +60,16 @@
         </section>
     </div>
 </div>
-<a href="https://github.com/yvzn/agile-tour-2016" id="fork-me-link"><img
-        style="position: absolute; top: 0; right: 0; border: 0;"
-        src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67"
-        alt="Fork me on GitHub"
-        data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/head.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.min.js"></script>
 <script>
     Reveal.initialize({
         dependencies: [
             {
-                src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/plugin/highlight/highlight.min.js',
-                async: true,
-                callback: function () {
-                    hljs.initHighlightingOnLoad();
-                }
-            },
-            {
                 src: 'resources/reveal.js-3.3.0/plugin/notes/notes.js',
                 async: true
             }
         ]
-
-    });
-    Reveal.addEventListener('slidechanged', function (event) {
-        var index = event.indexh + event.indexv;
-        document.getElementById('fork-me-link').style.display = (0 == index) ? 'block' : 'none';
     });
 </script>
 </body>
