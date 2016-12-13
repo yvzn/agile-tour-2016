@@ -10,6 +10,13 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/lib/js/html5shiv.js"></script>
     <![endif]-->
+    <style type="text/css">
+        section.has-light-background, section.has-light-background h1, section.has-light-background h2,
+        section.has-light-background h3, section.has-light-background h4, section.has-light-background h5,
+        section.has-light-background h6 {
+            color: #2b2b2b;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,27 +25,29 @@
         <section data-background="images/vue-MN-TB-aerienne.jpg">
             <h1>Agile Tour Nantes</h1>
             <aside class="notes">
-                novembre / mines<br/>
+                novembre / école des mines<br/>
                 plx confs / contenu dense<br/>
-                (anecdote) angle prés&deg;
+                angle prés&deg; ?
             </aside>
         </section>
         <section data-background="images/public1.jpg">
+            <h1>13 octobre 2016</h1>
             <aside class="notes">
-                centrer sur attendus : <br/>
+                quels attendus peut-on avoir ?<br/>
                 rappel principes agiles<br/>
-                REX autres projets
+                REX d'utres projets
             </aside>
         </section>
-        <section data-background="images/lexperience.jpg">
+        <section data-background="images/lexperience.jpg" data-background-color="#fff">
+            <h2>L'expérience</h2>
             <aside class="notes">
                 thème de 2016 = REX<br/>
-                tout trouvé : REX vs principes agiles<br/>
+                REX vs principes agiles<br/>
                 sondage agilité<br/>
                 connaît / pratique / connaît manifeste
             </aside>
         </section>
-        <section data-background="images/manifeste.png">
+        <section data-background-image="images/manifeste.jpg" data-background-color="#fff">
             <h2>Le manifeste agile</h2>
             <aside class="notes">
                 agilemanifesto.org<br/>
@@ -50,67 +59,70 @@
             </aside>
         </section>
 
-        <section>
+        <section data-background-image="images/individus.jpg">
             <h2>Les individus et leurs interactions</h2>
+            <h3>plutôt que les processus et les outils</h3>
             <aside class="notes">
-                vs processus et outils<br/>
                 la méthode +simple/+efficace = dialogue face/face<br/>
             </aside>
         </section>
-        <section>
+        <section data-background="images/cbp.jpg">
             <h2>CBP</h2>
             <aside class="notes">
                 grosse entreprise courtage en assurance<br/>
-                se réinventer / syndrôme Kodak<br/>
+                syndrôme Kodak => se réinventer<br/>
                 avec l'agilité ?!
             </aside>
         </section>
-        <section>
+        <section data-background="images/cbp-pyramide.jpg">
+            <h2>Le projet API</h2>
             <aside class="notes">
                 Objectifs :<br/>
-                décider rapidement (surcharge)<br/>
+                décider rapidement (surcharge de W)<br/>
                 j'ai un pb => je connais la solution<br/>
-                j'ai une propal => accord des acteurs
+                j'ai une propos&deg; => accord des acteurs
             </aside>
         </section>
-        <section>
-            <h2>Projet API</h2>
+        <section data-background="images/post-its.jpg">
+            <h2>Management visuel + rituels</h2>
             <aside class="notes">
-                Management visuel + rituels<br/>
                 Mélée 5' matin<br/>
                 Mélée 15'<br/>
                 Mélée 30' + Rétro<br/>
+                Totems + place village
             </aside>
         </section>
-        <section>
+        <section data-background="images/meeting.jpg">
+            <h2>Réussites</h2>
             <aside class="notes">
-                Positifs (vs principe agile)<br/>
-                Projet "autofinancé" : c'est du temps vs moins de réunions<br/>
+                vs principe agile<br/>
+                Projet "autofinancé" : temps consacré vs - de réunions<br/>
                 Réorganisation pics d'activité<br/>
                 LIFO vs FIFO (tous en retard vs sacrifier cas difficiles)
             </aside>
         </section>
-        <section>
+        <section data-background="images/fail.gif">
+            <h2>Difficultés</h2>
             <aside class="notes">
-                Difficultés :<br/>
                 Essouflement => Réinjecter de l'E<br/>
                 management qui "joue le jeu" ?<br/>
-                SI qui ne suit pas<br/>
+                SI qui ne suit pas
             </aside>
         </section>
-        <section>
+        <section data-background="images/cbp-notes.jpg">
+            <h2>Effets collatéraux</h2>
             <aside class="notes">
                 Redécoupage des équipes<br/>
                 Management visuel = objectivation des choses<br/>
                 intelligence collective<br/>
-                responsabilisation et proposition
+                responsabilisation + force proposition
             </aside>
         </section>
 
-        <section>
+        <section data-background="images/legos.jpg">
             <h2>Des logiciels opérationnels</h2>
+            <h3>plutôt qu'une documentation exhaustive</h3>
             <aside class="notes">
-                vs documentation exhaustive<br/>
                 logiciel = principale mesure d'avancement<br/>
                 satisfaction client / haute valeur fonctionnelle<br/>
                 livrer fréquemment / cycles courts
@@ -119,6 +131,7 @@
         <section>
             <h2>Devops et feature teams</h2>
             <aside class="notes">
+                MGDIS / CTO 150p<br/>
                 contre-exemple ?<br/>
                 concilier archi et agilité ?<br/>
                 process, urbanisation, documentation vs agilité
@@ -126,47 +139,50 @@
         </section>
         <section>
             <aside class="notes">
-                schéma architecture<br/>
-                BPMN / JIRA (chocolat)<br/>
+                c'est un architecte : schéma complexe<br/>
+                BPMN / JIRA<br/>
+                concilier archi et agilité ?<br/>
                 possible avec une "vision"<br/>
             </aside>
         </section>
         <section>
             <aside class="notes">
                 application monolithique => microservices<br/>
-                co-location dev et ops<br/>
                 cartographie et urbanisation progressive du SI<br/>
-                conteneurisation
+                conteneurisation<br/>
+                co-location dev et ops<br/>
             </aside>
         </section>
         <section>
             <aside class="notes">
                 management : organigramme => feature teams<br/>
                 manageur = facilitateur<br/>
-                hiérarchie c'est comme les étages
+                hiérarchie c'est c^ étages
             </aside>
         </section>
         <section>
             <aside class="notes">
                 leçons intéressantes:<br/>
-                agilité = renversement de la pyramide (accepter la perte de contrôle)<br/>
-                les équipes prennent toutes les décisions (exemple des microservices : choix du langage)<br/>
+                agilité = renversement pyramide<br/>
+                accepter perte contrôle<br/>
+                les équipes prennent décisions<br/>
+                exemple microservices : choix Lg<br/>
                 responsablisation<br/>
             </aside>
         </section>
         <section>
             <aside class="notes">
-                colocalisation + déménagement régulier des équipes<br/>
-                la norme n'est pas une contrainte (prise EDF)<br/>
-                investir dans la simplification<br/>
-                L'architecture émérgente n'existe pas
+                colocalisation + déménagement régulier équipes<br/>
+                norme != contrainte (ex prise EDF)<br/>
+                investir dans simplification<br/>
+                L'architecture émérgente ∄
             </aside>
         </section>
 
         <section>
             <h2>La collaboration avec les clients</h2>
+            <h3>plutôt que la négociation contractuelle</h3>
             <aside class="notes">
-                vs négociation contractuelle<br/>
                 travail quotidien utilisateurs avec devs
             </aside>
         </section>
@@ -175,13 +191,13 @@
             <aside class="notes">
                 Spektrum<br/>
                 Présentation à l'américaine<br/>
-                (sûr de lui et de ses arguments)<br/>
+                Showman sûr de lui et de ses arguments<br/>
                 Néanmoins vérités
             </aside>
         </section>
         <section>
             <aside class="notes">
-                trouver le fit avec le client (non le projet)<br/>
+                trouver fit client (vs fit projet)<br/>
                 a-t-on envie de travailler avec ?<br/>
             </aside>
         </section>
@@ -189,7 +205,7 @@
             <aside class="notes">
                 concrètement<br/>
                 rdv commerciaux avec devs/techs<br/>
-                donnent leur avis<br/>
+                techs donnent leur avis<br/>
                 responsibilisation / engagement de l'équipe
             </aside>
         </section>
@@ -203,6 +219,12 @@
         <section>
             <aside class="notes">
                 facteur de têtage<br/>
+                demandes ramenées à une valeur<br/>
+                facteur rationnel partagé avec client
+            </aside>
+        </section>
+        <section>
+            <aside class="notes">
                 facturation à l'itération (stop ou encore)<br/>
                 backlog partagé avec le client
             </aside>
@@ -210,11 +232,11 @@
 
         <section>
             <h2>L'adaptation au changement</h2>
+            <h3>plutôt que le suivi d'un plan</h3>
             <aside class="notes">
-                vs suivi d'un plan<br/>
                 accueillir positivement<br/>
-                même tardivement<br/>
-                changement = avantage compétitif
+                même tardif<br/>
+                changement = avantage compétitif client
             </aside>
         </section>
         <section>
@@ -222,7 +244,8 @@
             <aside class="notes">
                 Pièce de théâtre<br/>
                 Training factory Orange (PTT)<br/>
-                déléguée, Proche de la retraite
+                déléguée<br/>
+                proche retraite
             </aside>
         </section>
         <section>
@@ -242,8 +265,9 @@
         <section>
             <aside class="notes">
                 Niveau de sécurité de l'équipe<br/>
-                Principe des boîtes<br/>
-                Contenu de la réunion adapté
+                Contexte FT<br/>
+                Principe boîtes + notes<br/>
+                Contenu de la réunion adapté vs note
             </aside>
         </section>
         <section>
@@ -285,7 +309,6 @@
             </aside>
         </section>
         <section>
-            <h2>Face au réel ?</h2>
             <aside class="notes">
                 Différentes implémentations de la méthode<br/>
                 interactions / processus+outils<br/>
@@ -295,6 +318,7 @@
             </aside>
         </section>
         <section>
+            <h2>Face au réel ?</h2>
             <aside class="notes">
                 Tribunal agile<br/>
                 Remarques qu'on entend sur certains projets agiles<br/>
@@ -328,7 +352,8 @@
                 "ROI != nb lignes de code"
             </aside>
         </section>
-        <section>
+        <section data-background-image="images/manifeste.jpg" data-background-color="#fff">
+            <h2>Le manifeste agile</h2>
             <aside class="notes">
                 Manifeste et valeurs<br/>
                 vs<br/>
